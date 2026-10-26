@@ -1,11 +1,11 @@
 * {
-    color:#333
+    color:#333;
 }
 
-
 img {
-    width: 30px;
-    padding: 5px;
+    border: 2px solid gray;
+    margin: 5px; /* margin - зовнішній відступ (від рамки) */
+    padding: 5px; /* padding - внутрішній відступ (до рамки) */
     width: 30px;
 }
 
@@ -19,10 +19,29 @@ h1 {
 
 .selector-table {
     border: 2px solid lightgray;
+    border-collapse: collapse;
 }
 
 .selector-table th, .selector-table td {
     border: 1px solid lightgray;
-    border-collapse: collapse;
-    padding: 5px;
+}
+
+.row-1 {
+    background-color: #FFE4E1; /* Misty Rose */
+}
+
+.row-2 {
+    background-color: #E0FFFF; /* Light Cyan */
+}
+
+.row-3 {
+    background-color: #F0FFF0; /* Honeydew */
+}
+
+.row-4 {
+    background-color: #FFFACD; /* Lemon Chiffon */
+}
+
+.row-5 {
+    background-color: #E6E6FA; /* Lavender */
 }
